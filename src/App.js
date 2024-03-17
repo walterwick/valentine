@@ -10,12 +10,29 @@ const phrases = [
   "Don't do this to me🫤",
   "I'm gonna cry..😭",
   "You are breaking my heart😭💔",
+  "Think again!💔",
+  "Last chance!😭",
+  "Surely not?🥺",
+  "You might regret this!",
+  "Give it another thought!",
+  "Are you absolutely certain?",
+  "This could be a mistake!",
+  "Have a heart!",
+  "Don't be so cold!",
+  "Change of heart?🥺",
+  "Wouldn't you reconsider?",
+  "Is that your final answer?",
+  "You're breaking my heart ;(",
+  "Is that your final answer?🫤",
+  "You're breaking my heart ;(",
+  "Plsss? :( You're breaking my heart🫤",
 ];
+
 
 function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 20 + 16;
+  const yesButtonSize = noCount * 2 + 16;
 
   function handleYesClick() {
     setYesPressed(true);
