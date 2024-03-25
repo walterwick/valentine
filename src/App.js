@@ -2,11 +2,6 @@ import { useState } from "react";
 import "./App.css";
 
 const phrases = [
-  "No 🙉",
-  "Are you sure?",
-  "Really Sure😢",
-  "I'll be very sad😕",
-  "Pookie Please🥺",
   "Don't do this to me🫤",
   "I'm gonna cry..😭",
   "You are breaking my heart😭💔",
@@ -28,11 +23,10 @@ const phrases = [
   "Plsss? :( You're breaking my heart🫤",
 ];
 
-
 function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const yesButtonSize = noCount * 2 + 16;
+  const yesButtonSize = noCount * 5 + 16;
 
   function handleYesClick() {
     setYesPressed(true);
@@ -54,14 +48,6 @@ function App() {
             alt="bear-Kissing"
           />
           <div className="text">Yayyy !!!</div>
-<iframe
-  src="https://14ft.vercel.app/"
-  height="0"
-  width="0"
-  frameborder="0"
-  title="14ft.vercel.app sitesine erişen iframe" // Burada title eklendi
-></iframe>
-
         </>
       ) : (
         <>
